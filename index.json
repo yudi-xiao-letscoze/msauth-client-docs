@@ -1,0 +1,72 @@
+{
+  "api/JXGD.MicroServices.Authentication.Editor.html": {
+    "href": "api/JXGD.MicroServices.Authentication.Editor.html",
+    "title": "Namespace JXGD.MicroServices.Authentication.Editor | Micro service Auth documentation",
+    "keywords": "Namespace JXGD.MicroServices.Authentication.Editor Classes PemImporter"
+  },
+  "api/JXGD.MicroServices.Authentication.Editor.PemImporter.html": {
+    "href": "api/JXGD.MicroServices.Authentication.Editor.PemImporter.html",
+    "title": "Class PemImporter | Micro service Auth documentation",
+    "keywords": "Class PemImporter Inheritance Object PemImporter Namespace : JXGD.MicroServices.Authentication.Editor Assembly : cs.temp.dll.dll Syntax public class PemImporter : ScriptedImporter Methods OnImportAsset(AssetImportContext) Declaration public override void OnImportAsset(AssetImportContext ctx) Parameters Type Name Description AssetImportContext ctx"
+  },
+  "api/JXGD.MicroServices.AuthenticationClient.html": {
+    "href": "api/JXGD.MicroServices.AuthenticationClient.html",
+    "title": "Class AuthenticationClient | Micro service Auth documentation",
+    "keywords": "Class AuthenticationClient Inheritance Object AuthenticationClient Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class AuthenticationClient Constructors AuthenticationClient(Uri, String, String) Create new authentication client Declaration public AuthenticationClient(Uri endpoint, string version, string pathToPublicKeyFile) Parameters Type Name Description Uri endpoint String version String pathToPublicKeyFile Exceptions Type Condition Exception Fields AccessToken Declaration public JsonWebToken.JsonWebToken AccessToken Field Value Type Description JsonWebToken.JsonWebToken Endpoint Declaration public Uri Endpoint Field Value Type Description Uri RefreshToken Declaration public JsonWebToken.JsonWebToken RefreshToken Field Value Type Description JsonWebToken.JsonWebToken Version Declaration public string Version Field Value Type Description String Methods Login(RequestModel.LoginBody) Declaration public UniTask<ResponseModel.JwtKeyPair> Login(RequestModel.LoginBody body) Parameters Type Name Description RequestModel.LoginBody body Returns Type Description UniTask < ResponseModel.JwtKeyPair > Login(String, String) Declaration public UniTask<ResponseModel.JwtKeyPair> Login(string account, string password) Parameters Type Name Description String account String password Returns Type Description UniTask < ResponseModel.JwtKeyPair > RenewAccessToken() 更新AccessToken Declaration public UniTask<JsonWebToken.JsonWebToken> RenewAccessToken() Returns Type Description UniTask < JsonWebToken.JsonWebToken >"
+  },
+  "api/JXGD.MicroServices.CookieHelper.html": {
+    "href": "api/JXGD.MicroServices.CookieHelper.html",
+    "title": "Class CookieHelper | Micro service Auth documentation",
+    "keywords": "Class CookieHelper Inheritance Object CookieHelper Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public static class CookieHelper Methods GetCookie(String) Get named cookie. Declaration public static string GetCookie(string name) Parameters Type Name Description String name Name of the cookie Returns Type Description String Value of the named cookie (without name and '=') GetCookies() Get all cookies. Declaration public static string GetCookies() Returns Type Description String Raw value of all cookies (Same as 'document.cookie') RemoveCookie(String) Remove named cookie. Declaration public static void RemoveCookie(string name) Parameters Type Name Description String name Name of the cookie SetCookie(String, String) Sets a cookie. Declaration public static void SetCookie(string name, string value) Parameters Type Name Description String name Name of the cookie String value Value of the cookie SetCookie(String, String, DateTime) Sets a cookie. Declaration public static void SetCookie(string name, string value, DateTime date) Parameters Type Name Description String name Name of the cookie String value Value of the cookie DateTime date Expired timestamp in format (example: Fri, 31 Dec 2010 23:59:59 GMT) SetCookie(String, String, String, String, String, String) Sets a cookie. Declaration public static void SetCookie(string name, string value, string expires, string path, string domain, string secure) Parameters Type Name Description String name Name of the cookie String value Value of the cookie String expires Expired timestamp in format (example: Fri, 31 Dec 2010 23:59:59 GMT) String path Path of the cookie String domain Domain of the cookie String secure Secure level of cookie (https/http)"
+  },
+  "api/JXGD.MicroServices.Editor.html": {
+    "href": "api/JXGD.MicroServices.Editor.html",
+    "title": "Namespace JXGD.MicroServices.Editor | Micro service Auth documentation",
+    "keywords": "Namespace JXGD.MicroServices.Editor Classes MsAuthEditorWindow"
+  },
+  "api/JXGD.MicroServices.Editor.MsAuthEditorWindow.html": {
+    "href": "api/JXGD.MicroServices.Editor.MsAuthEditorWindow.html",
+    "title": "Class MsAuthEditorWindow | Micro service Auth documentation",
+    "keywords": "Class MsAuthEditorWindow Inheritance Object MsAuthEditorWindow Namespace : JXGD.MicroServices.Editor Assembly : cs.temp.dll.dll Syntax public class MsAuthEditorWindow : EditorWindow Fields Client Declaration public static AuthenticationClient Client Field Value Type Description AuthenticationClient Properties AccessTokenExpiredField Declaration public TextField AccessTokenExpiredField { get; } Property Value Type Description TextField AccessTokenField Declaration public TextField AccessTokenField { get; } Property Value Type Description TextField AccountField Declaration public TextField AccountField { get; } Property Value Type Description TextField EndpointField Declaration public TextField EndpointField { get; } Property Value Type Description TextField LoadBtn Declaration public Button LoadBtn { get; } Property Value Type Description Button LoadingPanel Declaration public VisualElement LoadingPanel { get; } Property Value Type Description VisualElement LoginBtn Declaration public Button LoginBtn { get; } Property Value Type Description Button LoginPanel Declaration public VisualElement LoginPanel { get; } Property Value Type Description VisualElement LogoutBtn Declaration public Button LogoutBtn { get; } Property Value Type Description Button PasswordField Declaration public TextField PasswordField { get; } Property Value Type Description TextField PemFile Declaration public ObjectField PemFile { get; } Property Value Type Description ObjectField RefreshTokenExpiredField Declaration public TextField RefreshTokenExpiredField { get; } Property Value Type Description TextField RefreshTokenField Declaration public TextField RefreshTokenField { get; } Property Value Type Description TextField RenewBtn Declaration public Button RenewBtn { get; } Property Value Type Description Button TokenPanel Declaration public VisualElement TokenPanel { get; } Property Value Type Description VisualElement VersionField Declaration public TextField VersionField { get; } Property Value Type Description TextField Methods CreateGUI() Declaration public void CreateGUI() DisplayJwt(ResponseModel.JwtKeyPair, TextField, TextField, TextField, TextField) Login to ms-auth via given username and password. Declaration public void DisplayJwt(ResponseModel.JwtKeyPair jwToken, TextField accessTokenField, TextField refreshTokenField, TextField accessTokenExpiredTimeTextField, TextField refreshTokenExpiredTimeTextField) Parameters Type Name Description ResponseModel.JwtKeyPair jwToken TextField accessTokenField TextField refreshTokenField TextField accessTokenExpiredTimeTextField TextField refreshTokenExpiredTimeTextField ShowWindow() Declaration public static void ShowWindow()"
+  },
+  "api/JXGD.MicroServices.html": {
+    "href": "api/JXGD.MicroServices.html",
+    "title": "Namespace JXGD.MicroServices | Micro service Auth documentation",
+    "keywords": "Namespace JXGD.MicroServices Classes AuthenticationClient CookieHelper RequestModel RequestModel.LoginBody ResponseModel ResponseModel.AuthRenewResponse ResponseModel.AuthResponse ResponseModel.JwtKeyPair"
+  },
+  "api/JXGD.MicroServices.RequestModel.html": {
+    "href": "api/JXGD.MicroServices.RequestModel.html",
+    "title": "Class RequestModel | Micro service Auth documentation",
+    "keywords": "Class RequestModel Inheritance Object RequestModel Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class RequestModel"
+  },
+  "api/JXGD.MicroServices.RequestModel.LoginBody.html": {
+    "href": "api/JXGD.MicroServices.RequestModel.LoginBody.html",
+    "title": "Class RequestModel.LoginBody | Micro service Auth documentation",
+    "keywords": "Class RequestModel.LoginBody Inheritance Object RequestModel.LoginBody Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class LoginBody Constructors LoginBody() Declaration public LoginBody() Fields account Declaration public string account Field Value Type Description String password Declaration public string password Field Value Type Description String"
+  },
+  "api/JXGD.MicroServices.ResponseModel.AuthRenewResponse.html": {
+    "href": "api/JXGD.MicroServices.ResponseModel.AuthRenewResponse.html",
+    "title": "Class ResponseModel.AuthRenewResponse | Micro service Auth documentation",
+    "keywords": "Class ResponseModel.AuthRenewResponse Inheritance Object ResponseModel.AuthRenewResponse Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class AuthRenewResponse Constructors AuthRenewResponse() Declaration public AuthRenewResponse() Fields AccessToken Declaration public JsonWebToken.JsonWebToken AccessToken Field Value Type Description JsonWebToken.JsonWebToken Message Declaration public string Message Field Value Type Description String Success Declaration public bool Success Field Value Type Description Boolean"
+  },
+  "api/JXGD.MicroServices.ResponseModel.AuthResponse.html": {
+    "href": "api/JXGD.MicroServices.ResponseModel.AuthResponse.html",
+    "title": "Class ResponseModel.AuthResponse | Micro service Auth documentation",
+    "keywords": "Class ResponseModel.AuthResponse Inheritance Object ResponseModel.AuthResponse Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class AuthResponse Constructors AuthResponse() Declaration public AuthResponse() Fields Message Declaration public string Message Field Value Type Description String Success Declaration public bool Success Field Value Type Description Boolean Token Declaration public ResponseModel.JwtKeyPair Token Field Value Type Description ResponseModel.JwtKeyPair"
+  },
+  "api/JXGD.MicroServices.ResponseModel.html": {
+    "href": "api/JXGD.MicroServices.ResponseModel.html",
+    "title": "Class ResponseModel | Micro service Auth documentation",
+    "keywords": "Class ResponseModel Inheritance Object ResponseModel Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class ResponseModel"
+  },
+  "api/JXGD.MicroServices.ResponseModel.JwtKeyPair.html": {
+    "href": "api/JXGD.MicroServices.ResponseModel.JwtKeyPair.html",
+    "title": "Class ResponseModel.JwtKeyPair | Micro service Auth documentation",
+    "keywords": "Class ResponseModel.JwtKeyPair Inheritance Object ResponseModel.JwtKeyPair Namespace : JXGD.MicroServices Assembly : cs.temp.dll.dll Syntax public class JwtKeyPair Constructors JwtKeyPair() Declaration public JwtKeyPair() Fields AccessToken Declaration public JsonWebToken.JsonWebToken AccessToken Field Value Type Description JsonWebToken.JsonWebToken RefreshToken Declaration public JsonWebToken.JsonWebToken RefreshToken Field Value Type Description JsonWebToken.JsonWebToken"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the Documentation page for Micro service auth client package | Micro service Auth documentation",
+    "keywords": "This is the Documentation page for Micro service auth client package"
+  }
+}

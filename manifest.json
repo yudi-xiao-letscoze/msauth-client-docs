@@ -1,0 +1,255 @@
+{
+  "homepages": [],
+  "source_base_path": "G:/Unity Project/Letscoze-Package-MsAuth/Packages/com.letscoze.msauth@1.0.1/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.Authentication.Editor.PemImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.Authentication.Editor.PemImporter.html",
+          "hash": "lclurlcnmiEQBYl0gOv8jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.Authentication.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.Authentication.Editor.html",
+          "hash": "Kl/7UbTIzn3M3hvO5g5B/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.AuthenticationClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.AuthenticationClient.html",
+          "hash": "6PP87uqIM7rBlXUT/FaJsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.CookieHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.CookieHelper.html",
+          "hash": "Sbt7gnyrFs4qjBtXa9QVzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.Editor.MsAuthEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.Editor.MsAuthEditorWindow.html",
+          "hash": "0nWr91AdI/5giUegOwhAfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.Editor.html",
+          "hash": "JK4p7tDxuWtbWHj8jg/FIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.RequestModel.LoginBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.RequestModel.LoginBody.html",
+          "hash": "hNW1r0cUUDpqFU4yCxFFCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.RequestModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.RequestModel.html",
+          "hash": "3S5JVAn4rcReC7c+GjlM7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.ResponseModel.AuthRenewResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.ResponseModel.AuthRenewResponse.html",
+          "hash": "f9+L2YKly2iB0jbyFVTCLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.ResponseModel.AuthResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.ResponseModel.AuthResponse.html",
+          "hash": "uGuYzK0nT5T7W1aSKr8i1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.ResponseModel.JwtKeyPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.ResponseModel.JwtKeyPair.html",
+          "hash": "VPLxaMDmGRwQ+eIi1ohtfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.ResponseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.ResponseModel.html",
+          "hash": "bSnoPw9GjwuzatGV/9aX1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JXGD.MicroServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JXGD.MicroServices.html",
+          "hash": "CWS/KFsiER1B6+T+lKy2Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "bAZ/3Bd7iPS3FngU8NzwOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "aXcoow5Tf0OBizwwB/E8fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ID7K3p2A4rzKEAkC3lHFGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 1
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 13
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
